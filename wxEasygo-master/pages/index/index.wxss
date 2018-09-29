@@ -1,0 +1,121 @@
+/**index.wxss**/
+
+/*以下是index*/
+
+.index {
+  height: auto;
+  width: 90%;
+  background: #d9e0e7;
+  padding: 5%;
+}
+
+.index .h1 {
+  font-weight: 500;
+  color: #242a30;
+  font-size: 48rpx;
+  margin: 0 0 40rpx;
+  padding: 0;
+  /*border: none;/dd*/
+  line-height: 56rpx;
+  font-family: inherit;
+}
+
+.index .h1 .small {
+  display: inline;
+  font-size: 28rpx;
+  font-weight: 300;
+  color: #7c7f83;
+}
+
+.index .list {
+  margin: 0 -10px;
+}
+
+.index .list-wrap {
+  padding: 0 10px;
+  position: relative;
+  min-height: 1px;
+  font-size: 12px;
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #707478;
+}
+
+.index .widget {
+  position: relative;
+  margin-bottom: 20px;
+  color: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.index .stats-icon {
+  height: 72rpx;
+  width: 72rpx;
+  color: #fff;
+  position: absolute;
+  right: 30rpx;
+  top: 50rpx;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+
+.index .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.index .stats-info {
+  padding-top: 20rpx;
+}
+
+.index .stats-info-title {
+  width: 48%;
+  margin: 5px 0;
+  color: #fff;
+  font-size: 32rpx;
+  display: inline-block;
+}
+
+.index .p {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin: 0 0 10px;
+  display: inline-block;
+  margin-left: 20rpx;
+}
+
+/*.index .stats-link:hover .link {
+  background: rgba(0, 0, 0, 1);
+  color: #ddd;
+}*/
+
+.index .stats-link .link {
+  display: block;
+  margin: 15px -15px -15px;
+  padding: 7px 15px;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: right;
+  color: #ddd;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.index .send {
+  width: 20rpx;
+  height: 20rpx;
+  margin: 10rpx;
+  margin-left: 10rpx;
+  float: right;
+}
+
+.index .money, .index .chart, .index .offline, .index .setup {
+  width: 100%;
+  height: 100%;
+  margin: 5rpx;
+  margin-left: 10rpx;
+}
